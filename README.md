@@ -40,6 +40,8 @@ The Odin Recipes project is a webpage designed to display various recipes using 
   - Use CSS and/or other resources to make the webpage more appealing to look at
 - Home Page
   - Make more visually appealing
+  - Add Search feature
+  - Add more Recipes
 
   ## Screenshots
 
