@@ -53,4 +53,6 @@ The Odin Recipes project is a webpage designed to display various recipes using 
 
 ## Live Demo
 
-[Link to Demo](https://drive.google.com/file/d/1gogu6qBpB7WrIc96vfd49FkwbMiyp6lh/view?usp=sharing)
+[Live Website](https://txtrissammi.github.io/Recipe_Project/)
+
+[Video Demo](https://drive.google.com/file/d/1gogu6qBpB7WrIc96vfd49FkwbMiyp6lh/view?usp=sharing)
