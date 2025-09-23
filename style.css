@@ -1,0 +1,29 @@
+/* 
+COLOR PALETTE 1
+#47003c
+#77176e
+#c83fa9
+#aa4d84
+#f3b0dc 
+#f55593
+
+COLOR PALETTE 2
+#2e0f38
+#1a2c54
+#8351a8
+#4d7b93
+#b45dbb
+*/
+
+* {
+
+    background-color: #47003c;
+    color: #f3b0dc;
+}
+
+a {
+    color: #f55593;
+}
+a:hover {
+    color: #c83fa9;
+}
