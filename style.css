@@ -27,3 +27,6 @@ a {
 a:hover {
     color: #c83fa9;
 }
+a:visited {
+    color: #c83fa9;
+}
