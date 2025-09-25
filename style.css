@@ -16,9 +16,18 @@ COLOR PALETTE 2
 */
 
 * {
-
     background-color: #47003c;
     color: #f3b0dc;
+}
+
+h1 {
+    font-size: 50px;
+    color: #f55593;
+    font-family: 'comic sans ms';
+}
+
+.title {
+    text-align: center;
 }
 
 a {
