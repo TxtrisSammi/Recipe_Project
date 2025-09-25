@@ -48,6 +48,7 @@ button {
     border-radius: 12px;
     margin: 15px;
     cursor: pointer;
+    transition: all 0.5s cubic-bezier(0.75, 0.5, 0.5, 1);
 }
 
 .fixedWidth {
