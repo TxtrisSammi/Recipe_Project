@@ -30,6 +30,30 @@ h1 {
     text-align: center;
 }
 
+
+div {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #7c036a;
+    font-size: 20px;
+    border-radius: 12px;
+    margin: 15px;
+    cursor: pointer;
+}
+
+.fixedWidth {
+    width: 150px;
+}
+
+button:hover {
+    background-color: #f3b0dc;
+    color: #7c036a;
+}
+
 a {
     color: #f55593;
 }
