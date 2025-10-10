@@ -26,6 +26,52 @@ h1 {
     font-family: 'comic sans ms';
 }
 
+a {
+    color: #f55593;
+}
+
+a:hover {
+    color: #c83fa9;
+}
+
+a:visited {
+    color: #c83fa9;
+}
+
+.nav {
+  display: flex;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav a {
+  color: #f3b0dc;
+  background-color: #77176e;
+  text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #77176e;
+}
+
+.header button { 
+    border-radius: 6px;
+}
+
+.header div {
+    background-color: #77176e;
+    font-size: 25px;
+}
+
+.header nav {
+    background-color: #77176e;
+}
+
 .title {
     text-align: center;
 }
@@ -50,25 +96,13 @@ button {
     transition: all 0.5s cubic-bezier(0.75, 0.5, 0.5, 1);
 }
 
-.fixedWidth {
-    width: 150px;
-}
-
 button:hover {
     background-color: #f3b0dc;
     color: #7c036a;
 }
 
-a {
-    color: #f55593;
-}
-
-a:hover {
-    color: #c83fa9;
-}
-
-a:visited {
-    color: #c83fa9;
+.fixedWidth {
+    width: 150px;
 }
 
 .box h2 {
@@ -95,4 +129,10 @@ a:visited {
     border-radius: 15px;
     background-color: #77176e;
     box-sizing: border-box;   
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
 }
