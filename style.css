@@ -1,41 +1,37 @@
-/* 
-COLOR PALETTE 1
-#47003c
-#77176e
-#c83fa9
-#aa4d84
-#f3b0dc 
-#f55593
+/* Import Comic Relief Font */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
 
-COLOR PALETTE 2
-#2e0f38
-#1a2c54
-#8351a8
-#4d7b93
-#b45dbb
-*/
+/* COLOR PALETTE 1 */
+:root {
+    --bg-color: #47003c;
+    --text-color: #f3b0dc;
+    --accent-color: #f55593;
+    --visited-color: #c83fa9;
+    --secondary-color: #77176e;
+    --extra-color: #aa4d84;
+}
 
 * {
-    background-color: #47003c;
-    color: #f3b0dc;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-family: 'Comic Relief', 'Comic Sans MS', 'Chalkboard SE', 'Comic Neue', Arial, sans-serif;
 }
 
 h1 {
     font-size: 50px;
-    color: #f55593;
-    font-family: 'comic sans ms';
+    color: var(--text-color);
 }
 
 a {
-    color: #f55593;
+    color: var(--accent-color);
 }
 
 a:hover {
-    color: #c83fa9;
+    color: var(--visited-color);
 }
 
 a:visited {
-    color: #c83fa9;
+    color: var(--visited-color);
 }
 
 .nav {
@@ -46,8 +42,8 @@ a:visited {
 }
 
 .nav a {
-  color: #f3b0dc;
-  background-color: #77176e;
+  color: var(--text-color);
+  background-color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -56,7 +52,7 @@ a:visited {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #77176e;
+    background-color: var(--secondary-color);
 }
 
 .header button { 
@@ -64,12 +60,12 @@ a:visited {
 }
 
 .header div {
-    background-color: #77176e;
+    background-color: var(--secondary-color);
     font-size: 25px;
 }
 
 .header nav {
-    background-color: #77176e;
+    background-color: var(--secondary-color);
 }
 
 .title {
@@ -83,12 +79,12 @@ div {
 }
 
 hr {
-    border: 3px solid #f076c5;
+    border: 3px solid var(--extra-color);
     margin-bottom: 25px;
 }
 
 button {
-    background-color: #7c036a;
+    background-color: var(--secondary-color);
     font-size: 20px;
     border-radius: 12px;
     margin: 15px;
@@ -97,8 +93,8 @@ button {
 }
 
 button:hover {
-    background-color: #f3b0dc;
-    color: #7c036a;
+    background-color: var(--text-color);
+    color: var(--secondary-color);
 }
 
 .fixedWidth {
@@ -106,33 +102,7 @@ button:hover {
 }
 
 .box h2 {
-    background-color: #77176e;
+    background-color: var(--secondary-color);
     text-align: center;
     font-family: 'Times New Roman', Times, serif; 
-}
-
-.box {
-    background-color: #77176e;
-    border-radius: 12px;
-    border: 3px dotted #f076c5;
-    margin: 15px;
-    padding: 15px 15px 200px 15px;
-    text-align: left;
-    font-family: comic sans ms;
-}
-
-.card {
-    width: 300px;
-    padding: 20px;
-    border: #f076c5 3px solid;
-    margin: auto;
-    border-radius: 15px;
-    background-color: #77176e;
-    box-sizing: border-box;   
-}
-
-.card-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
 }
