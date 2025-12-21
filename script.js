@@ -56,7 +56,7 @@ async function main() {
         themeButton.addEventListener('click', () => applyPalette());
     }
 
-    parseCSV();
+    await parseCSV();
 }
 
 async function applyPalette() {
