@@ -5,7 +5,11 @@ async function parseCSV() {
     let palettes = localStorage.getItem('palettes');
     try {
         if (!palettes) {
-            const response = await fetch('/media/color-palettes.csv');
+            const url = window.location.hostname.includes('github.io')
+                ? 'media/color-palettes.csv'
+                : '/media/color-palettes.csv';
+
+            const response = await fetch(url);
             const rawData = await response.text();
             const data = rawData.trim().split(/[,\n\r]+/);
 
